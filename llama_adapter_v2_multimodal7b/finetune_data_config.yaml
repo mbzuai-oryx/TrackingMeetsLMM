@@ -1,0 +1,5 @@
+dataroot: '/data2/DriveLM/'
+META:
+  - '/home/fahad/ayesha/DriveLM/nuscenes_data/data_3dmot/sample_3dmot_llama.json' 
+
+
