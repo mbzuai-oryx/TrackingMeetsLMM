@@ -26,7 +26,7 @@ This repository presents an innovative approach that integrates **3D object trac
 
 🔹 **Tracking Data:**
 - **📌 Step 1:** Generate 3D object and ego-vehicle tracks using **[3DMOTFormer](https://github.com/your-link-to-3dmotformer)**.
-- **📌 Step 2:** Process these tracks to provide rich **spatiotemporal context** for multimodal learning.
+- **📌 Step 2:** Process these tracks to map key object and ego-vehicle trajectories for each question.
 
 ---
 
@@ -76,6 +76,12 @@ python demo.py --llama_dir /path/to/llama_model_weights \
 python evaluation/evaluation.py --root_path1 ./output.json --root_path2 ./test_eval.json
 ```
 
+---
+## 🚀 TODO List
+
+- [ ] 📢 Release pretrained weights  
+- [ ] 🎯 Release finetuned checkpoint
+- [ ] 📊 Release nuScenes train and test VQA with tracks  
 ---
 
 ## 🙏 **Acknowledgments**
