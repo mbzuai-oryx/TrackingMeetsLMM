@@ -1,3 +1,9 @@
+#!/usr/bin/bash
+
+LLAMA_PATH="$1"
+PRETRAINED_PATH="$2"
+CONFIG="$3"
+OUTPUT_DIR="$4"
 
 mkdir -p "$OUTPUT_DIR"
 
