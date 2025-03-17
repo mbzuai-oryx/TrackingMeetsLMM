@@ -4,11 +4,6 @@ LLAMA_PATH="$1"
 CONFIG="$2"
 OUTPUT_DIR="$3"
 
-LLAMA_PATH="/data1/DriveLM/llama_wts"
-PRETRAINED_PATH="/home/fahad/ayesha/DriveLM/trained_weights/pretrained_LORA-BIAS-7B.pth" # path to pre-trained checkpoint
-CONFIG="/home/fahad/ayesha/DriveLM/challenge/llama_adapter_v2_multimodal7b/finetune_data_config.yaml"
-OUTPUT_DIR="/data2/DriveLM/multimodal_traj_pretrain_ego"
-
 mkdir -p "$OUTPUT_DIR"
 
 CUDA_VISIBLE_DEVICES="2,3" python -u -m torch.distributed.launch --master_port=1112 --nproc_per_node=2 --use_env \
