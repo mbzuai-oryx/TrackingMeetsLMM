@@ -2,7 +2,7 @@
 # 🚗💡 **Tracking Meets Large Multimodal Models for Driving Scenario Understanding**
 
 📌 **Enhancing autonomous driving with tracking-powered multimodal understanding!**
-
+[![arXiv](https://img.shields.io/badge/arXiv-Link-orange)](https://arxiv.org/abs/2503.14498) 
 ---
 
 ## ✨ **Overview**
